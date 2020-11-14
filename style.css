@@ -1,0 +1,138 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: arial, sans-serif;
+}
+
+/* Navbar */
+
+.apps {
+    width: 18px;
+}
+.profile {
+    border-radius: 50%;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 15px;
+    align-items: center;
+    list-style-type: none;
+    gap: 15px;
+    font-size: 13px;
+}
+
+/* Search */
+
+.main_image {
+    width:270px;
+    height: 97px;
+}
+
+.search {
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.search_bar {
+    display:flex;
+    margin:30px;
+    width:100%;
+    justify-content: center;
+}
+
+.fa-search {
+    position:relative;
+    left:30px;
+    top:14px;
+}
+
+.fa-microphone {
+    position: relative;
+    right:30px;
+    top:14px;
+}
+
+input {
+    display: flex;
+    flex-shrink: 0.5;
+    flex-basis: 440px;
+    flex-grow: 0.08;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    height: 40px;
+    line-height: 24px;
+    outline: none;
+    padding-left: 40px;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+/* Buttons */
+
+button {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    width: 130px;
+    height: 35px;
+    background-color:#f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+}
+
+button:hover {
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.divider{
+    width:5px;
+    height:0;
+    display:inline-block;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*Footer*/
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 10pt;
+    gap: 25px;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:40px;
+    background:#f2f2f2;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+    color: #3c4043;
+}
+
+.footer-right {
+    margin-right: 25px;
+}
+
+
+
